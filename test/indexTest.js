@@ -27,7 +27,7 @@ describe('index.js', () => {
       expect(excitedWelcomeMessage).to.have.string('WELCOME TO FLATBOOK, ');
     });
 
-    it("contains the value of the 'currentUser' variable", () => {
+    it("contains the value of the 'currentUser' variable", () => { expect(excitedWelcomeMessage).to.have.string
       const upperCaseCurrentUser = currentUser.toUpperCase();
 
       expect(excitedWelcomeMessage).to.have.string(upperCaseCurrentUser);
